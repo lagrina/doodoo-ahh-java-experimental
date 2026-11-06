@@ -1,4 +1,5 @@
 package bwiset;
+
 import java.util.Base64;
 
 public class Secret {

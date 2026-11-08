@@ -16,6 +16,7 @@ public class Secret {
 		}
 
 	}
+	
 	public void nameDrop() {
 		String encodedText = Base64.getEncoder().encodeToString(this.name.getBytes());
 		if (encodedText.equals("TWFyaQ==")) {
@@ -23,6 +24,10 @@ public class Secret {
 		} else {
 			System.out.println("di ko man na crush");
 		}
+	}
+
+	public void initialDrop() {
+		System.out.println("Basta si " + this.initial);
 	}
 
 	public void isItM() {

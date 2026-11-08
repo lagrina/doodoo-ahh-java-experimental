@@ -25,6 +25,7 @@ public class Main {
 		Secret person = new Secret(personName);
 		
 		person.isItM();
+		person.initialDrop();
 		person.nameDrop();
 		
 		input.close();
